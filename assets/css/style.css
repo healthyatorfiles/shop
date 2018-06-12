@@ -1841,8 +1841,8 @@ text-align: center;
 
 
 .footer {
-	padding: 50px 0 50px 0;
-	background: #2d2d86;
+	padding: 20px 0 20px 0;
+	background: #000000;
 }
 
 .footer h2 {
@@ -1882,8 +1882,7 @@ text-align: center;
 	font-family: 'Montserrat';
 	font-size: 14px;
 	font-weight: 500;
-	color: #364655;
-	color: #D8D8D8;
+	color: #ffffff;
 	letter-spacing: 0;
 	text-transform: capitalize;
 }
