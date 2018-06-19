@@ -52,10 +52,12 @@ input[type=text]:focus, input[type=password]:focus {
 <input type="text" name="mail" placeholder="Type your age here ">
                 </div>
 
-     <form action="peekly.top" >
-  <button type="submit">Button</button>
-	     onclick="window.open('www.example.com')";
-</form> 
+ <script>
+// onclick event is assigned to the #button element.
+document.getElementById("button").onclick = function() {
+  window.location.href = "https://www.example.com";
+};
+</script>
                   <p>By clicking continue you are agreeing to the Terms and Services</p>
 		
                 </div>
